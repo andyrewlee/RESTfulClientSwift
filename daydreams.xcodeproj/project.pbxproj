@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF9DC231B4C472C00A70011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9DC221B4C472C00A70011 /* AppDelegate.swift */; };
+		5AF9DC251B4C472C00A70011 /* DreamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9DC241B4C472C00A70011 /* DreamsViewController.swift */; };
+		5AF9DC281B4C472C00A70011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9DC261B4C472C00A70011 /* Main.storyboard */; };
+		5AF9DC2A1B4C472C00A70011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9DC291B4C472C00A70011 /* Assets.xcassets */; };
+		5AF9DC2D1B4C472C00A70011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9DC2B1B4C472C00A70011 /* LaunchScreen.storyboard */; };
+		5AF9DC381B4C472D00A70011 /* daydreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9DC371B4C472D00A70011 /* daydreamsTests.swift */; };
+		5AF9DC431B4C472D00A70011 /* daydreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9DC421B4C472D00A70011 /* daydreamsUITests.swift */; };
+		5AF9DC511B4C492600A70011 /* DreamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9DC501B4C492600A70011 /* DreamDetailsViewController.swift */; };
+		5AF9DC531B4C9C7500A70011 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9DC521B4C9C7500A70011 /* Dream.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF9DC341B4C472D00A70011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF9DC171B4C472C00A70011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF9DC1E1B4C472C00A70011;
+			remoteInfo = daydreams;
+		};
+		5AF9DC3F1B4C472D00A70011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF9DC171B4C472C00A70011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF9DC1E1B4C472C00A70011;
+			remoteInfo = daydreams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AF9DC1F1B4C472C00A70011 /* daydreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daydreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9DC221B4C472C00A70011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AF9DC241B4C472C00A70011 /* DreamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamsViewController.swift; sourceTree = "<group>"; };
+		5AF9DC271B4C472C00A70011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AF9DC291B4C472C00A70011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AF9DC2C1B4C472C00A70011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AF9DC2E1B4C472C00A70011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9DC331B4C472D00A70011 /* daydreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daydreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9DC371B4C472D00A70011 /* daydreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daydreamsTests.swift; sourceTree = "<group>"; };
+		5AF9DC391B4C472D00A70011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9DC3E1B4C472D00A70011 /* daydreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daydreamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF9DC421B4C472D00A70011 /* daydreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daydreamsUITests.swift; sourceTree = "<group>"; };
+		5AF9DC441B4C472D00A70011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9DC501B4C492600A70011 /* DreamDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DreamDetailsViewController.swift; sourceTree = "<group>"; };
+		5AF9DC521B4C9C7500A70011 /* Dream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF9DC1C1B4C472C00A70011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9DC301B4C472D00A70011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9DC3B1B4C472D00A70011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF9DC161B4C472C00A70011 = {
+			isa = PBXGroup;
+			children = (
+				5AF9DC211B4C472C00A70011 /* daydreams */,
+				5AF9DC361B4C472D00A70011 /* daydreamsTests */,
+				5AF9DC411B4C472D00A70011 /* daydreamsUITests */,
+				5AF9DC201B4C472C00A70011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF9DC201B4C472C00A70011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9DC1F1B4C472C00A70011 /* daydreams.app */,
+				5AF9DC331B4C472D00A70011 /* daydreamsTests.xctest */,
+				5AF9DC3E1B4C472D00A70011 /* daydreamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF9DC211B4C472C00A70011 /* daydreams */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9DC221B4C472C00A70011 /* AppDelegate.swift */,
+				5AF9DC241B4C472C00A70011 /* DreamsViewController.swift */,
+				5AF9DC501B4C492600A70011 /* DreamDetailsViewController.swift */,
+				5AF9DC521B4C9C7500A70011 /* Dream.swift */,
+				5AF9DC261B4C472C00A70011 /* Main.storyboard */,
+				5AF9DC291B4C472C00A70011 /* Assets.xcassets */,
+				5AF9DC2B1B4C472C00A70011 /* LaunchScreen.storyboard */,
+				5AF9DC2E1B4C472C00A70011 /* Info.plist */,
+			);
+			path = daydreams;
+			sourceTree = "<group>";
+		};
+		5AF9DC361B4C472D00A70011 /* daydreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9DC371B4C472D00A70011 /* daydreamsTests.swift */,
+				5AF9DC391B4C472D00A70011 /* Info.plist */,
+			);
+			path = daydreamsTests;
+			sourceTree = "<group>";
+		};
+		5AF9DC411B4C472D00A70011 /* daydreamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9DC421B4C472D00A70011 /* daydreamsUITests.swift */,
+				5AF9DC441B4C472D00A70011 /* Info.plist */,
+			);
+			path = daydreamsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF9DC1E1B4C472C00A70011 /* daydreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9DC471B4C472D00A70011 /* Build configuration list for PBXNativeTarget "daydreams" */;
+			buildPhases = (
+				5AF9DC1B1B4C472C00A70011 /* Sources */,
+				5AF9DC1C1B4C472C00A70011 /* Frameworks */,
+				5AF9DC1D1B4C472C00A70011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daydreams;
+			productName = daydreams;
+			productReference = 5AF9DC1F1B4C472C00A70011 /* daydreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AF9DC321B4C472D00A70011 /* daydreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9DC4A1B4C472D00A70011 /* Build configuration list for PBXNativeTarget "daydreamsTests" */;
+			buildPhases = (
+				5AF9DC2F1B4C472D00A70011 /* Sources */,
+				5AF9DC301B4C472D00A70011 /* Frameworks */,
+				5AF9DC311B4C472D00A70011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF9DC351B4C472D00A70011 /* PBXTargetDependency */,
+			);
+			name = daydreamsTests;
+			productName = daydreamsTests;
+			productReference = 5AF9DC331B4C472D00A70011 /* daydreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AF9DC3D1B4C472D00A70011 /* daydreamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF9DC4D1B4C472D00A70011 /* Build configuration list for PBXNativeTarget "daydreamsUITests" */;
+			buildPhases = (
+				5AF9DC3A1B4C472D00A70011 /* Sources */,
+				5AF9DC3B1B4C472D00A70011 /* Frameworks */,
+				5AF9DC3C1B4C472D00A70011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF9DC401B4C472D00A70011 /* PBXTargetDependency */,
+			);
+			name = daydreamsUITests;
+			productName = daydreamsUITests;
+			productReference = 5AF9DC3E1B4C472D00A70011 /* daydreamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF9DC171B4C472C00A70011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jae Hoon Lee";
+				TargetAttributes = {
+					5AF9DC1E1B4C472C00A70011 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5AF9DC321B4C472D00A70011 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5AF9DC1E1B4C472C00A70011;
+					};
+					5AF9DC3D1B4C472D00A70011 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5AF9DC1E1B4C472C00A70011;
+					};
+				};
+			};
+			buildConfigurationList = 5AF9DC1A1B4C472C00A70011 /* Build configuration list for PBXProject "daydreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF9DC161B4C472C00A70011;
+			productRefGroup = 5AF9DC201B4C472C00A70011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF9DC1E1B4C472C00A70011 /* daydreams */,
+				5AF9DC321B4C472D00A70011 /* daydreamsTests */,
+				5AF9DC3D1B4C472D00A70011 /* daydreamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF9DC1D1B4C472C00A70011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9DC2D1B4C472C00A70011 /* LaunchScreen.storyboard in Resources */,
+				5AF9DC2A1B4C472C00A70011 /* Assets.xcassets in Resources */,
+				5AF9DC281B4C472C00A70011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9DC311B4C472D00A70011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9DC3C1B4C472D00A70011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF9DC1B1B4C472C00A70011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9DC251B4C472C00A70011 /* DreamsViewController.swift in Sources */,
+				5AF9DC511B4C492600A70011 /* DreamDetailsViewController.swift in Sources */,
+				5AF9DC231B4C472C00A70011 /* AppDelegate.swift in Sources */,
+				5AF9DC531B4C9C7500A70011 /* Dream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9DC2F1B4C472D00A70011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9DC381B4C472D00A70011 /* daydreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9DC3A1B4C472D00A70011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9DC431B4C472D00A70011 /* daydreamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF9DC351B4C472D00A70011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF9DC1E1B4C472C00A70011 /* daydreams */;
+			targetProxy = 5AF9DC341B4C472D00A70011 /* PBXContainerItemProxy */;
+		};
+		5AF9DC401B4C472D00A70011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF9DC1E1B4C472C00A70011 /* daydreams */;
+			targetProxy = 5AF9DC3F1B4C472D00A70011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF9DC261B4C472C00A70011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9DC271B4C472C00A70011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF9DC2B1B4C472C00A70011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9DC2C1B4C472C00A70011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF9DC451B4C472D00A70011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AF9DC461B4C472D00A70011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AF9DC481B4C472D00A70011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = daydreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.daydreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AF9DC491B4C472D00A70011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = daydreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.daydreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AF9DC4B1B4C472D00A70011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = daydreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.daydreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/daydreams.app/daydreams";
+			};
+			name = Debug;
+		};
+		5AF9DC4C1B4C472D00A70011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = daydreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.daydreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/daydreams.app/daydreams";
+			};
+			name = Release;
+		};
+		5AF9DC4E1B4C472D00A70011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = daydreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.daydreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = daydreams;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5AF9DC4F1B4C472D00A70011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = daydreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.daydreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = daydreams;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF9DC1A1B4C472C00A70011 /* Build configuration list for PBXProject "daydreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9DC451B4C472D00A70011 /* Debug */,
+				5AF9DC461B4C472D00A70011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF9DC471B4C472D00A70011 /* Build configuration list for PBXNativeTarget "daydreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9DC481B4C472D00A70011 /* Debug */,
+				5AF9DC491B4C472D00A70011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AF9DC4A1B4C472D00A70011 /* Build configuration list for PBXNativeTarget "daydreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9DC4B1B4C472D00A70011 /* Debug */,
+				5AF9DC4C1B4C472D00A70011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AF9DC4D1B4C472D00A70011 /* Build configuration list for PBXNativeTarget "daydreamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF9DC4E1B4C472D00A70011 /* Debug */,
+				5AF9DC4F1B4C472D00A70011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF9DC171B4C472C00A70011 /* Project object */;
+}
